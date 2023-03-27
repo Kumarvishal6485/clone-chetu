@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetu</title>
+    <link rel="favicon" href="chetu_logo.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        header {
+            height: 30px;
+            background-color: rgb(-197, 125, 195);
+        }
+
+        .navbar {
+            float: right;
+        }
+
+        .mainbody {
+            background: url(background2.webp), rgb(68, 185, 231);
+            background-blend-mode: multiply;
+            height: 700px;
+            width: 98vw;
+            background-size: cover;
+        }
+
+        li {
+            cursor: pointer;
+            position: relative;
+            display: inline;
+            top: 4px;
+            margin-right: 20px;
+            font-size: 22px;
+            color: white;
+        }
+
+        li:hover {
+            background-color: rgb(255, 166, 0);
+            border-radius: 4px;
+        }
+
+        .second_nav {
+            height: 90px;
+            background-color: transparent;
+        }
+
+        .second {
+            position: relative;
+            float: right;
+            top: 51px;
+            right: 13px;
+
+        }
+
+        #company_image {
+            cursor: pointer;
+            position: absolute;
+            top: 40px;
+            left: 10px;
+        }
+
+        .main_text1 {
+            position: relative;
+            top: 150px;
+            left: 310px;
+            width: fit-content;
+            color: white;
+            font-size: large;
+        }
+
+        .main_text2 {
+            position: relative;
+            top: 180px;
+            left: 358px;
+            width: fit-content;
+            color: white;
+            font-size: large;
+        }
+
+        .developer_now {
+            position: relative;
+            top: 250px;
+            left: 530px;
+            border: 2px solid red;
+            border-radius: 40px;
+            width: 300px;
+            height: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .developer_now:hover {
+            background-color: orange;
+            color: white;
+            cursor: pointer;
+        }
+
+        .lowerbody {
+            height: 500px;
+            background-color: white;
+        }
+
+        .lowerdetail {
+
+            color: rgb(47, 189, 245);
+            left: 20%;
+            position: relative;
+            width: fit-content;
+            top: 20px;
+
+        }
+
+        #contactus {
+            height: 35px;
+            width: 100px;
+            color: black;
+            background-color: white;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 11px;
+        }
+
+        #contactus:hover {
+            background-color: white;
+        }
+
+        .forflex {
+            position: relative;
+            top: 100px;
+            display: flex;
+            height: 350px;
+            width: 98vw;
+
+        }
+
+        .div1,
+        .div2,
+        .div3 {
+            top: 2px;
+            height: 340px;
+            width: 33%;
+        }
+
+        #app_development,
+        #on_demand_developers,
+        #product_support {
+            position: relative;
+            left: 37%;
+            text-align: center;
+        }
+
+        #app_development,
+        #on_demand_developers,
+        #product_support::selection {
+            color: blue;
+        }
+
+        .div1,
+        .div2 {
+            border-right: 2px solid skyblue;
+        }
+
+        #app_development_id {
+            position: relative;
+            left: 23%;
+            width: fit-content;
+        }
+
+        #on_demand_developers_id {
+            position: relative;
+            left: 15%;
+            width: fit-content;
+        }
+
+        #product_support_id {
+            position: relative;
+            left: 25%;
+            width: fit-content;
+        }
+
+        .thirdsegment {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .component1 {
+            height: 600px;
+            width: 900px;
+        }
+
+        .component2 {
+            font-size: 20px;
+            font-family: 'Itim', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbody">
+        <header>
+            <nav class="navbar">
+                <li>Let's Talk! </li>
+                <li>954 342 5676</li>
+                <li>+44 137 2466</li>
+            </nav>
+        </header>
+        <!-- <div class="company_logo"> -->
+        <!-- </div> -->
+        <div class="second_nav">
+            <img src="chetu-logo-white.png" alt="image" id="company_image" height="104px" width="150px">
+            <nav class="second">
+                <ul>
+                    <li>Industries</li>
+                    <li>Solution</li>
+                    <li>Services</li>
+                    <li>On Demand Developers</li>
+                    <li>Portfolio</li>
+                    <li>Company</li>
+                    <li>Blog</li>
+                    <li><button id="contactus" name="contactus"><b>Contact Us</b></button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main_text1">
+            <h1>SOFTWARE DEVELOPMENT & SUPPORT</h1>
+        </div>
+        <div class="main_text2">
+            <h1>SERVICES FOR YOUR BUSINESS</h1>
+        </div>
+        <span>
+            <div class="developer_now">
+                <h3>GET DEVELOPER NOW</h3>
+            </div>
+        </span>
+        <!-- formarquee -->
+        <!-- <div class="formarquee"> -->
+        <!-- <marquee behavior="" direction=""> -->
+        <!-- <ul> -->
+        <!-- <li><img src="johnson_johnson.png" alt="logo" height = "50px" width="100px"></li> -->
+        <!-- <li><img src="C.jpg" alt="logo" height = "50px" width="100px"></li> -->
+        <!-- <li><img src="johnson_johnson.png" alt="logo" height = "50px" width="100px"></li> -->
+        <!-- <li><img src="johnson_johnson.png" alt="logo" height = "50px" width="100px"></li> -->
+        <!-- <li><img src="johnson_johnson.png" alt="logo" height = "50px" width="100px"></li> -->
+        <!-- </ul> -->
+        <!-- </marquee> -->
+        <!-- </div> -->
+    </div>
+    <hr>
+    <div class="lowerbody">
+        <div class="lowerdetail">
+            <h1>INDUSTRY-EXPERIENCED DEVELOPERS, On Demand</h1>
+        </div>
+        <div class="forflex">
+            <div class="div1">
+                <img id="app_development" src="appdev.svg" alt="logo">
+                <h1 id="app_development_id">App Development</h1>
+                <p>Our team of software developers can build exceptional applications across a breadth of devices
+                    including desktop, mobile and tablet. With the help of our industry expertise, we are able to give
+                    the end user the best application experience across multiple channels.</p>
+            </div>
+            <div class="div2">
+                <img id="on_demand_developers" src="ondemand.svg" alt="logo">
+                <h1 id="on_demand_developers_id">On Demand Developer</h1>
+                <p>We are proud to employ over 2,800 in-house developers with a variety of software development
+                    experience in an array of industries. This enables us to be a one-stop shop, removing the hassles of
+                    managing multiple vendors, logistics, and technological bottlenecks.</p>
+            </div>
+            <div class="div3">
+                <img id="product_support" src="support.svg" alt="logo">
+                <h1 id="product_support_id">Product Support</h1>
+                <p>We partner with other industry leaders to deploy superior software solutions for our clients. Our
+                    certified developers are capable of implementing new software, seamlessly integrating it to your
+                    organization as well as providing support for any future upgrades.</p>
+            </div>
+            
+        </div>
+    </div>
+    <br>
+    <div class="thirdsegment">
+        <div class="component1">
+            <img src="half_c.png" alt="company_image" height="500px" width="500px">
+        </div>
+        <div class="component2">
+            <pre>
+
+                <hr> 
+                AGRICULTURE
+                AVIATION
+                E-LEARNING
+                FINANCE
+                CASINO GAMES
+                GAMING
+                HEALTHCARE
+                HOSPITALITY & TRAVEL
+                HUMAN CAPITAL MANAGEMENT
+                MEETINGS & EVENTS
+                REAL ESTATE
+                RETAIL
+                SUPPLY CHAIN
+                TRANSPORTATION
+                </pre>
+            <hr>
+        </div>
+    </div>
+</body>
+</html>
